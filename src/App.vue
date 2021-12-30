@@ -11,7 +11,7 @@ export default {
 
 <template>
   <div>
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+    <HelloWorld msg="Hello Vue 2 + Vite" />
   </div>
 </template>
 
