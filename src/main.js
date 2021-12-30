@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+ new Vue({
+  render(h) {
+    return h(App)
+  },
+}).$mount('#app')
